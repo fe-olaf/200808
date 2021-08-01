@@ -9,8 +9,6 @@ README.md 라는 파일은 프로젝트의 소개글을 의미한다.
 - .md 는 마크다운 확장자를 의미한다.
 
 ```js
-/* initialize.js */
-
 import {KAKAO_KEY} from '../const/config';
 
 const {Kakao} = window;
@@ -27,14 +25,41 @@ export default function initialize() {
 ### VS code 내에서의 파일 색상 의미
 
 - 초록색: 추가된파일
-
+- 누런색: 기존의 파일이 변화함
+- 
 
 ### Github 
 
-git status
+1. git status   
+현재 git 이 알고 있는 파일 상태          
+파일이 빨간색이라면 git 은 현재 변경된 상태를 모른다.
 
-현재 git 이 알고있는 파일 상태
+```
+$ git status 
+```
 
-- 파일이 빨간색이라면 git 은 현재 변경된 상태를 모른다.
+2. git add 
+현재 변경 사항을 git 한테 알려준다.
 
-- 올리기 위한 단계 1. commit -> 2. push
+```
+$ git add .
+```
+
+. 은 내가 위치한 곳의 모든 파일을 의미
+
+3. git commit
+commit 은 하나의 작업을 의미한다.    
+commit 은 메세지를 가진다. 
+
+```
+$ git commit -m "메세지"
+```
+
+4. git push 
+commit 된 결과물들을 remote 서버에 반영한다.
+
+```
+$ git push origin <branch name>
+```
+
+master = branch name (기둥이되는 브랜치)
