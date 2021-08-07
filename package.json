@@ -1,0 +1,19 @@
+{
+  "name": "200808",
+  "version": "1.0.0",
+  "description": "README.md 라는 파일은 프로젝트의 소개글을 의미한다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fe-olaf/200808.git"
+  },
+  "author": "olaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fe-olaf/200808/issues"
+  },
+  "homepage": "https://github.com/fe-olaf/200808#readme"
+}

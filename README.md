@@ -63,3 +63,22 @@ $ git push origin <branch name>
 ```
 
 master = branch name (기둥이되는 브랜치)
+
+
+## NPM 
+
+node package manager 
+
+### package.json 
+프로젝트에 대한 정보를 다 담고있다.  
+내부에서 사용되는 라이브러리들, 단축 명령어 등등 ..
+
+### install 
+외부 라이브러리를 다운받는다.   
+결과물은 node_modules 폴더 내부에 다운받아진다.
+
+```
+$ npm install or npm i <패키지>
+$ npm install --save or npm i -S <패키지>
+$ npm install --save-dev or npm i -D <패키지>
+```
