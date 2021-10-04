@@ -1,0 +1,9 @@
+{
+    "user": {
+        "id": 0,
+        "email": "olaf@gmail.com",
+        "password": "1234",
+        "name": "고석진",
+        "phone": "010-1111-2222"
+    }
+}

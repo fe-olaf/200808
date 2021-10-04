@@ -31,9 +31,37 @@ const trainer2 = {
   memo: '신입 피티 강사',
 }
 
-const trainers = [trainer, trainer2]
+const trainer3 = {
+  name: '김말숙',
+  age: 30,
+  phone: '010-1234-1234',
+  isCertified: true,
+  isAttendance: false,
+  memo: '신입 피티 강사',
+}
+
+const trainers = [trainer, trainer2, trainer3]
+
+class Manager {
+  constructor() {
+    this.trainers = [trainer, trainer2, trainer3]
+  }
+  filterLicense(level) {
+    return this.trainers.filter((traniner) => {
+      return traniner.license === level
+    })
+   }
+}
+
+filterLicense(1) // 1 []
+filterLicense(2) // 2 []
 
 describe('Array 테스트', () => {
+  it('', () => {
+    const m = new Manager()
+
+    expect(m.filterLicense(1).length).toBe(2)
+  })
   it('트레이너가 추가되면 length 가 1 이 증가한다.', () => {
     // 1. 트레이너 추가
 
