@@ -1,9 +1,29 @@
 {
-    "user": {
-        "id": 0,
-        "email": "olaf@gmail.com",
-        "password": "1234",
-        "name": "고석진",
-        "phone": "010-1111-2222"
+  "user": {
+    "id": 0,
+    "email": "olaf@gmail.com",
+    "password": "1234",
+    "name": "고석진",
+    "phone": "010-1111-2222"
+  },
+  "trainers": [
+    {
+      "name": "홍길동",
+      "level": "1",
+      "attendanceStatus": "DONE",
+      "id": 1
+    },
+    {
+      "name": "홍길순",
+      "level": "5",
+      "attendanceStatus": "DONE",
+      "id": 2
+    },
+    {
+      "name": "홍길자",
+      "level": "4",
+      "attendanceStatus": "DONE",
+      "id": 3
     }
+  ]
 }
